@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                sh "fkthisxrctgvbhnjmkertvbhynjui"
                 echo 'Compiling the .cpp file...'
                 sh "g++ -o test test.cpp"
             }
